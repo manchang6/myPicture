@@ -1,7 +1,12 @@
 # myPicture
 
-> A Vue.js project
+我的相册
 
+技术栈：vue2.0 + mintUi + axios + mock
+语法：es6
+功能：首页、列表页、我的
+
+> A Vue.js project
 ## Build Setup
 
 ``` bash
@@ -28,3 +33,4 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
