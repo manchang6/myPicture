@@ -79,11 +79,15 @@
           awesome-vue
         </a>
       </li>
+      <li>
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
+// import Button from 'mint-ui';
+// Vue.component(Button.name, Button);
 export default {
   name: 'HelloWorld',
   data () {

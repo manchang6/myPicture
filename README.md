@@ -6,6 +6,8 @@
 语法：es6
 功能：首页、列表页、我的
 
+Mint UI 使用文档
+http://mint-ui.github.io/docs/#/zh-cn2
 > A Vue.js project
 ## Build Setup
 
