@@ -80,19 +80,25 @@
         </a>
       </li>
       <li>
+        <mt-button type="primary" @click="routeClick">跳转首页</mt-button>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-// import Button from 'mint-ui';
-// Vue.component(Button.name, Button);
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    routeClick: function () {
+      this.$router.push({
+        path: '/home'}
+      )
     }
   }
 }
