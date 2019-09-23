@@ -82,6 +82,9 @@
       <li>
         <mt-button type="primary" @click="routeClick">跳转首页</mt-button>
       </li>
+      <li>
+        <p class="pi"></p>
+      </li>
     </ul>
   </div>
 </template>
@@ -105,8 +108,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
+<style lang="scss" scoped>
+@import '../assets/styles/function/function.scss';
+  h1, h2 {
   font-weight: normal;
 }
 ul {
@@ -119,5 +123,10 @@ li {
 }
 a {
   color: #42b983;
+}
+.pi {
+  height: vhSize(100);
+  width: vwSize(100);
+  background: red;
 }
 </style>

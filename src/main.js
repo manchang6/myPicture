@@ -4,6 +4,8 @@ import Vue from 'vue'
 import router from './router'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import './assets/styles/reset.css'
+import './assets/styles/border.css'
 import App from './App'
 Vue.use(MintUI)
 
