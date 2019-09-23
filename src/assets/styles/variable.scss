@@ -1,4 +1,6 @@
 // 定义全局scss变量 调用var([name])
 :root{
     --activeColor: blue; // 主题色
+    --fontColor: #30363f; // 文字主题色
+    --screenGap: 30px; // 距离屏幕上下左右间距
 }
