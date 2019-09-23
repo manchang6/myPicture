@@ -1,0 +1,11 @@
+// css入口文件
+@import './reset.css'; // 浏览器兼容问题
+@import './border.css'; // 像素1px问题
+@import './function.scss'; // scss方法
+@import './variable.scss'; // scss变量
+
+body,html{
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+    font-size: 32px;
+    color:#30363f;
+}

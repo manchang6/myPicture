@@ -14,7 +14,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cssnano": "^4.1.10",
+    "cssnano-preset-advanced": "^4.0.7",
+    "git-flow": "^0.2.0",
     "mint-ui": "^2.2.13",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "sass": "^1.18.0",
+    "scss": "^0.2.4",
+    "scss-loader": "0.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -74,6 +85,9 @@
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",
+    "sass-loader": "^7.1.0",
+    "node-sass": "^4.12.0",
+    "sass-resources-loader": "^2.0.0",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
