@@ -48,7 +48,8 @@ export default {
     width:100vw;
     height:100vh;
     position: relative;
-    // background:url('~@/assets/images/home_bg.gif')center center no-repeat;
+    background:url('~@/assets/skin/gif/sunset_glow1.gif')center center no-repeat;
+    background-size:cover;
     .mark_bg{
       width:100%;
       height:100%;
@@ -57,7 +58,7 @@ export default {
       top:0;
       right:0;
       bottom:0;
-      background:rgba(0,0,0,0.8);
+      background:rgba(0,0,0,0.2);
     }
     .menu_box{
       width: 100%;
